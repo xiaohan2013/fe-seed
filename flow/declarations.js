@@ -1,0 +1,1 @@
+function method(a: number, b: number): number {}

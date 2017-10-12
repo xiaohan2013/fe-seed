@@ -13,3 +13,7 @@ seed project
 4. flow check
 ```
 
+## 加入typescripts的类型检测
+```
+
+```
