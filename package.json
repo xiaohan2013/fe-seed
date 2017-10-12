@@ -1,22 +1,25 @@
 {
-    "name": "fe-seed",
-    "version": "1.0.0",
-    "description": "frontend seed project",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "release-major": "xyz --repo git@github.com:paldepind/snabbdom.git --increment major",
-        "release-minor": "xyz --repo git@github.com:paldepind/snabbdom.git --increment minor",
-        "release-patch": "xyz --repo git@github.com:paldepind/snabbdom.git --increment patch"
-    },
-    "repository": {
-        "type": "git",
-        "url": "githut.com/xiaohan2013/fe-seed.git"
-    },
-    "keywords": [
-        "seed",
-        "project"
-    ],
-    "author": "xiaohan2013",
-    "license": "ISC"
+  "name": "fe-seed",
+  "version": "1.0.0",
+  "description": "frontend seed project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release-major": "xyz --repo git@github.com:xiaohan2013/fe-seed.git --increment major",
+    "release-minor": "xyz --repo git@github.com:xiaohan2013/fe-seed.git --increment minor",
+    "release-patch": "xyz --repo git@github.com:xiaohan2013/fe-seed.git --increment patch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "githut.com/xiaohan2013/fe-seed.git"
+  },
+  "keywords": [
+    "seed",
+    "project"
+  ],
+  "author": "xiaohan2013",
+  "license": "ISC",
+  "devDependencies": {
+    "xyz": "^2.1.0"
+  }
 }
