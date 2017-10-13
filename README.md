@@ -42,6 +42,21 @@ seed project
 2. e2e测试
 - nightwatch
 
+```javascript
+
+    npm install -g nightwatch
+    Selenium Server Setup
+        download http://selenium-release.storage.googleapis.com/3.6/selenium-server-standalone-3.6.0.jar
+        java -jar selenium-server-standalone-{VERSION}.jar
+    端口被占
+        netstat -ano|findstr "4445" 
+        taskkill -f -pid 2548
+
+    
+```
+
+
+
 
 ## 文档
 npm install -g gitbook
