@@ -20,7 +20,34 @@ seed project
 ```
 
 ## rollupjs
+1. [x]加入rollup打包机制
+
 
 
 ## 开发环境
+
+
+## 测试
+1. 单元测试
+- jasmine
+
+```javascript
+
+1. npm i -D jasmine
+2. npm link jasmine
+3. jasmine init
+
+```
+
+2. e2e测试
+- nightwatch
+
+
+## 文档
+npm install -g gitbook
+npm install -g gitbook-cli
+gitbook init
+gitbook serve
+
+
 
